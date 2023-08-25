@@ -1,0 +1,25 @@
+{
+  "name": "python-blockly",
+  "version": "0.0.1",
+  "description": "A package for parsing Python code and transform it into Blockly input format",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "publish": "npm version patch && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loctary/python-blockly.git"
+  },
+  "keywords": [],
+  "author": "Vasyl Butov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loctary/python-blockly/issues"
+  },
+  "homepage": "https://github.com/loctary/python-blockly#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
